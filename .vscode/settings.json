@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "*.embeddedhtml": "html",
+    "*.erb": "html.erb",
+    "system_error": "cpp"
+  }
+}
