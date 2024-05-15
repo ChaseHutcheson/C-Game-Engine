@@ -11,7 +11,7 @@ int main(void)
     KDEBUG("A Test Message: %f", 3.14f);
     KTRACE("A Test Message: %f", 3.14f);
 
-    KASSERT(1 == 0);
+    KASSERT_MSG(1 == 1, "1 is not equal to 1");
 
     return 0;
 }
